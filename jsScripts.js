@@ -53,4 +53,17 @@ function getParameterByName(name)
     return decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 
+
 ----------------------------------------------------------------
+
+
+# how to get selected text in js
+# http://www.codetoad.com/javascript_get_selected_text.asp
+# http://rangyinputs.googlecode.com/svn/trunk/demos/textinputs_jquery.html
+
+----------------------------------------------------------------
+
+# Markdown links
+http://strapdownjs.com/
+http://mathiasbynens.be/notes/showdown-javascript-jquery
+http://mathiasbynens.be/demo/showdown-javascript-jquery
