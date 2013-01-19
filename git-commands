@@ -1,0 +1,31 @@
+Git Stuff
+
+----------------------------------------------------------------
+
+# http://stackoverflow.com/questions/7068179/convert-line-endlings-for-whole-directory-tree-git
+# Fixing Error:
+# fatal: CRLF would be replaced by LF in
+
+# You need to install dos2unix if not already
+# Run the following command at the top level of your git directory.
+$ find . -type f | xargs dos2unix
+
+----------------------------------------------------------------
+
+# Not able to push the edited file in github
+# http://stackoverflow.com/questions/7818963/not-able-to-push-the-edited-file-in-github
+# Note that for a repo where you are declared as collaborator, you need to use a "Read+Write access" url:
+
+https://UserName@github.com/Name/repoName
+
+In other words, not an http address, but an https one.
+
+----------------------------------------------------------------
+
+# How to update Editor for Git?
+# http://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits
+$ sudo update-alternatives --config editor
+OR
+$ git config --global core.editor "vim"
+
+----------------------------------------------------------------
